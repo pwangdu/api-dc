@@ -1,0 +1,19 @@
+{
+    "name": "ZoneMonitor",
+    "fields": [
+        {
+            "fieldName": "zoneMonitorId",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181204124320",
+    "entityTableName": "zone_monitor",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

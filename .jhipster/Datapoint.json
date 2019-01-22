@@ -1,0 +1,34 @@
+{
+    "name": "Datapoint",
+    "fields": [
+        {
+            "fieldName": "tag",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "captureTime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "value",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "rack",
+            "otherEntityName": "rack",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181204124323",
+    "entityTableName": "datapoint",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

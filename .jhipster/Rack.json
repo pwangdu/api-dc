@@ -1,0 +1,28 @@
+{
+    "name": "Rack",
+    "fields": [
+        {
+            "fieldName": "rackId",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "zoneMonitor",
+            "otherEntityName": "zoneMonitor",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "rack"
+        }
+    ],
+    "changelogDate": "20181204124319",
+    "entityTableName": "rack",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

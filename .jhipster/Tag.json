@@ -1,0 +1,23 @@
+{
+    "name": "Tag",
+    "fields": [
+        {
+            "fieldName": "tagId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "remainingBattery",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181204124321",
+    "entityTableName": "tag",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

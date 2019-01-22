@@ -1,0 +1,36 @@
+{
+    "name": "Server",
+    "fields": [
+        {
+            "fieldName": "serverId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "serverModel",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "serverManufacturer",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "tag",
+            "otherEntityName": "tag",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "server"
+        }
+    ],
+    "changelogDate": "20181204124318",
+    "entityTableName": "server",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

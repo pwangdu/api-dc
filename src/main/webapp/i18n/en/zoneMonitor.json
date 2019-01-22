@@ -1,0 +1,22 @@
+{
+  "platformApp": {
+    "zoneMonitor": {
+      "home": {
+        "title": "Zone Monitors",
+        "createLabel": "Create a new Zone Monitor",
+        "createOrEditLabel": "Create or edit a Zone Monitor",
+        "search": "Search for Zone Monitor"
+      },
+      "created": "A new Zone Monitor is created with identifier {{ param }}",
+      "updated": "A Zone Monitor is updated with identifier {{ param }}",
+      "deleted": "A Zone Monitor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Zone Monitor {{ id }}?"
+      },
+      "detail": {
+        "title": "Zone Monitor"
+      },
+      "zoneMonitorId": "Zone Monitor Id"
+    }
+  }
+}

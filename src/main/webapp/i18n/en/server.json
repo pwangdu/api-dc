@@ -1,0 +1,25 @@
+{
+  "platformApp": {
+    "server": {
+      "home": {
+        "title": "Servers",
+        "createLabel": "Create a new Server",
+        "createOrEditLabel": "Create or edit a Server",
+        "search": "Search for Server"
+      },
+      "created": "A new Server is created with identifier {{ param }}",
+      "updated": "A Server is updated with identifier {{ param }}",
+      "deleted": "A Server is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Server {{ id }}?"
+      },
+      "detail": {
+        "title": "Server"
+      },
+      "serverId": "Server Id",
+      "serverModel": "Server Model",
+      "serverManufacturer": "Server Manufacturer",
+      "tag": "Tag"
+    }
+  }
+}

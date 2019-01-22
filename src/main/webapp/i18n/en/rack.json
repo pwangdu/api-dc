@@ -1,0 +1,23 @@
+{
+  "platformApp": {
+    "rack": {
+      "home": {
+        "title": "Racks",
+        "createLabel": "Create a new Rack",
+        "createOrEditLabel": "Create or edit a Rack",
+        "search": "Search for Rack"
+      },
+      "created": "A new Rack is created with identifier {{ param }}",
+      "updated": "A Rack is updated with identifier {{ param }}",
+      "deleted": "A Rack is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rack {{ id }}?"
+      },
+      "detail": {
+        "title": "Rack"
+      },
+      "rackId": "Rack Id",
+      "zoneMonitor": "Zone Monitor"
+    }
+  }
+}

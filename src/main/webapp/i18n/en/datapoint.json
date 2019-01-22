@@ -1,0 +1,25 @@
+{
+  "platformApp": {
+    "datapoint": {
+      "home": {
+        "title": "Datapoints",
+        "createLabel": "Create a new Datapoint",
+        "createOrEditLabel": "Create or edit a Datapoint",
+        "search": "Search for Datapoint"
+      },
+      "created": "A new Datapoint is created with identifier {{ param }}",
+      "updated": "A Datapoint is updated with identifier {{ param }}",
+      "deleted": "A Datapoint is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Datapoint {{ id }}?"
+      },
+      "detail": {
+        "title": "Datapoint"
+      },
+      "tag": "Tag",
+      "captureTime": "Capture Time",
+      "value": "Value",
+      "rack": "Rack"
+    }
+  }
+}

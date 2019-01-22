@@ -1,0 +1,43 @@
+entity Server {
+	serverId String,
+    serverModel String,
+    serverManufacturer String
+}
+
+entity Rack {
+	rackId String
+}
+
+entity ZoneMonitor {
+	zoneMonitorId String
+}
+
+entity Tag {
+	tagId String,
+    remainingBattery Double
+}
+
+entity Membership {
+	startTime Instant,
+    endTime Instant
+}
+
+entity Datapoint {
+	tag String,
+	captureTime Instant,
+    value Double
+}
+
+relationship OneToOne {
+	Rack{zoneMonitor} to ZoneMonitor,
+    Server{tag} to Tag
+}
+
+relationship ManyToOne {
+	Datapoint{rack} to Rack,
+    Membership{server} to Server,
+    Membership{rack} to Rack
+}
+
+paginate Datapoint, Membership with infinite-scroll
+paginate Server, Rack with pagination
